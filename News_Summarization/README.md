@@ -25,3 +25,13 @@ Kaggle link: https://www.kaggle.com/datasets/sunnysai12345/news-summary
 - Prepared train and test datasets using pytorch-lightning functionalities
 - ROUGE, or Recall-Oriented Understudy for Gisting Evaluation, is a set of metrics and a software package used for evaluating automatic summarization and machine translation software in natural language processing. The metrics compare an automatically produced summary or translation against a reference or a set of references (human-produced) summary or translation.
 - Check sample predictions ```sample_100_predictions.csv```
+
+## Results
+- Text -
+```Two years is a long hiatus from limited overs cricket and a fit-again Mohammed Shami is ready to come out all guns blazing in the upcoming Champions Trophy in England from June 1.Shami last played for India in an ODI, back in 2015 World Cup and it will be a fresh start in the 50-over cricket."Two years is a long time to be out of ODI squad. In these two years, I have focussed on my strength and fitness. I have also worked on my weaknesses. I have got leaner. I am hopeful that I can perform well in the upcoming Champions Trophy. I want to give my best shot," Shami said after being named in the Champions Trophy squad.Shami who plays for Delhi Daredevils in the Indian Premier League, feels that IPL games will be great match practice in the tune up to the marquee event."IPL is a good platform for me wherein I will be getting 8-10 matches before going to the international tournament."Delhi Daredevils captain Zaheer Khan's presence has been of great help as his insights has helped Shami become a better bowler.```<br><br>
+- Original Summary - 
+```Pacer Mohammed Shami, who has returned to the Indian team after being included in the 15-member squad for the Champions Trophy, has said that the Indian bowling attack is one of the best in the world. Speaking about his two-year absence from the Indian team, Shami said, "In these two years, I have focussed on my strength and fitness."``` <br><br>
+- Model Predicted Summary - 
+```A fit-again Mohammed Shami has said that two years is a long hiatus from limited overs cricket. Shami last played for India in an ODI, back in 2015 World Cup and it will be a fresh start in the 50-over cricket. "I am hopeful that I can perform well in the upcoming Champions Trophy. I want to give my best shot," he added.```
+
+
